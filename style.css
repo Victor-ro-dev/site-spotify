@@ -22,6 +22,7 @@ h1{
     margin-bottom: 50px;
     color: white;
 }
+
 .display-3{
     font-size: 3em;
     font-weight: 700;
@@ -32,6 +33,7 @@ h1{
     font-weight: 700;
     letter-spacing: -0.04;
 }
+
 
 .navbar-light .navbar-nav .nav-link{
     color: white;
@@ -79,18 +81,37 @@ h1{
 #servicos h2, h3{
     color: #7c25f8;
 }
-#recursos h2, p{
+#recursos h2{
     color: white;
 }
 #recursos h3{
     color: #9bf0e1;
+}
+#recursos p{
+    color: white;
 }
 .albuns{
     padding: 10px 0px;
 }
 .rotacionar{
     transform: rotate(30deg);
-    padding-left: 80px;
+    padding-left: 100px;
+}
+footer{
+    position: relative;
+    background-color: black;
+}
+footer h6{
+    color: #919496;
+    text-transform: uppercase;
+}
+footer .navbar-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+footer .nav a{
+    color: #919496;
 }
 
 
