@@ -1,118 +1,171 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body, html, #home{
+
+body,
+html,
+#home {
     height: 100%;
     overflow-x: hidden;
 }
 
-body{
+body {
     background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav.navbar-transparente{
+nav.navbar-transparente {
     background: rgba(0, 0, 0, 0.6);
 }
-h1{
+
+h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
 }
 
-.display-3{
+a {
+    text-decoration: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.display-3 {
     font-size: 3em;
     font-weight: 700;
     letter-spacing: -0.04;
 }
-.display-4{
+
+.display-4 {
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04;
 }
 
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: white;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: #98f0e1;
 }
-.navbar-light .navbar-toggler{
+
+.navbar-light .navbar-toggler {
     color: rgba(255, 255, 255, .5);
     border-color: rgba(255, 255, 255, 0.5);
 }
-.divisor{
+
+.divisor {
     width: 1px;
     background: white;
     margin: 12px 15px;
 }
-.btn-roxo{
+
+.btn-roxo {
     background: #7c25f8;
 }
-.btn-roxo:hover{
+
+.btn-roxo:hover {
     background: #6207e3;
     color: white;
 }
-.btn-branco{
+
+.btn-branco {
     border: 2px solid white;
 }
-.btn-branco:hover{
+
+.btn-branco:hover {
     background-color: white;
     color: black;
 }
-.btn-custom{
+
+.btn-custom {
     color: white;
     border-radius: 500px;
     text-transform: uppercase;
-    transition: background 0.4s ,color 0.4s  ;
+    transition: background 0.4s, color 0.4s;
     padding: 10px 15px;
 }
-.box{
+
+.box {
     padding: 20px 0px;
 }
-#servicos{
+
+#servicos {
     background-color: white;
 }
-#servicos h2, h3{
+
+#servicos h2,
+h3 {
     color: #7c25f8;
 }
-#recursos h2{
+
+#recursos h2 {
     color: white;
 }
-#recursos h3{
+
+#recursos h3 {
     color: #9bf0e1;
 }
-#recursos p{
+
+#recursos p {
     color: white;
 }
-.albuns{
+
+.albuns {
     padding: 10px 0px;
 }
-.rotacionar{
+
+.rotacionar {
     transform: rotate(30deg);
     padding-left: 100px;
 }
-footer{
+
+footer {
     position: relative;
     background-color: black;
 }
-footer h6{
+
+footer h6 {
     color: #919496;
     text-transform: uppercase;
 }
-footer .navbar-nav a{
+
+footer .navbar-nav a {
     text-decoration: none;
     color: white;
     font-size: 0.8em;
 }
-footer .nav a{
+
+footer .nav a {
     color: #919496;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
 
 
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
