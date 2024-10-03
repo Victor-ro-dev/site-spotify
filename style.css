@@ -4,6 +4,7 @@
 }
 body, html, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -20,6 +21,16 @@ h1{
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+.display-3{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04;
+}
+.display-4{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -58,6 +69,28 @@ h1{
     text-transform: uppercase;
     transition: background 0.4s ,color 0.4s  ;
     padding: 10px 15px;
+}
+.box{
+    padding: 20px 0px;
+}
+#servicos{
+    background-color: white;
+}
+#servicos h2, h3{
+    color: #7c25f8;
+}
+#recursos h2, p{
+    color: white;
+}
+#recursos h3{
+    color: #9bf0e1;
+}
+.albuns{
+    padding: 10px 0px;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 
