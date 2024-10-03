@@ -147,6 +147,19 @@ footer .navbar-nav a {
 footer .nav a {
     color: #919496;
 }
+footer .nav a:hover {
+    color: #ce25f8;
+}
+footer .nav-link {
+    outline: none; 
+}
+
+footer .nav-link:focus, 
+.nav-link:active {
+    color: #919496;;
+    background-color: transparent; 
+    box-shadow: none; 
+}
 
 ::-webkit-scrollbar {
     width: 8px;
